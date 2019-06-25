@@ -17,7 +17,7 @@
         top: 0;
     }
     main {
-        height: 3500px;
+        height: 3600px;
     }
     footer {
         background-color: rgb(191, 197, 190);
@@ -87,10 +87,11 @@
     }
     .main-text {
         font-family: Lato;
-        font-size: 20px;
+        font-size: 1.2em;
         margin: 3px 17.5px;
         text-align: center;
     }
+
     .main-banner {
         background: url(Images/smoothie.gif);
         background-repeat: no-repeat;
