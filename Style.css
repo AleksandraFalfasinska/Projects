@@ -127,13 +127,13 @@
         float: left;
     }
     .main-smoothie img{
-        width: 150px;
-        height: 200px;
+        width: 200px;
+        height: 290px;
         object-fit: cover;
     }
     .row-smoothie{
         width: 100%;
-        height: 200PX;
+        height: 200px;
     }
     .main-smoothie-caption {
         display: block;
