@@ -14,28 +14,29 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#Home"><img src="Images/logo.png" class="nav-logo-img" alt="Green Parrot" />
-                <span class="nav-logo-text">Green Parrot</span>
+    <header class="header">
+        <nav class="nav">
+            <a href="#Home"><img src="Images/logo.png" class="nav__logo" alt="Green Parrot" />
+                <span class="nav__logoText">Green Parrot</span>
             </a>
-            <ul>
-                <li><a class="nav-button" href="#Stay-alert-label">Stay alert</a></li>
-                <li><a class="nav-button" href="#Lose-weight-label">Lose weight</a></li>
-                <li><a class="nav-button" href="#Healthy-&-delicoius-label">Healthy & delicious</a></li>
-                <li><a class="nav-button" href="#Smoothie-delight-label">Smoothies delight</a></li>
+            <ul class="nav__items">
+                <li class="nav__item"><a class="global__link nav__button" href="#Stay-alert-label">Stay alert</a></li>
+                <li class="nav__item"><a class="global__link nav__button" href="#Lose-weight-label">Lose weight</a></li>
+                <li class="nav__item"><a class="global__link nav__button" href="#Healthy-&-delicoius-label">Healthy & delicious</a></li>
+                <li class="nav__item"><a class="global__link nav__button" href="#Smoothie-delight-label">Smoothies delight</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+
+    <main class="main">
         <a id="Home"></a>
-        <h1 class="main-banner">
-            <p> Change your mood, </p>
-            make it smooth!
+        <h1 class="main__chapter main__banner">
+            <p class="main__bannerSlogan"> Change your mood, </p>
+            <p class="main__bannerSlogan">make it smooth!</p>
         </h1>
 
-        <div class="main-text">
-            <p>We are happy that we can present to you our new <span class="main-banner-line">exciting smoothie
+        <div class="main__text">
+            <p>We are happy that we can present to you our new <span class="main__text--strong">exciting smoothie
                     line.</span> Feel the real taste of health and enjoy the moment.</p>
             <h4>
                 <p>Our Promise? Clean Blends!</p>
@@ -46,54 +47,55 @@
         </div>
 
         <a id="Smoothie-delight-label"></a>
-        <h1 class="main-delight">
-            <p>Smoothies</p>
-            <p>DELIGHT</p>
+        <h1 class="main__chapter main__delight">
+            <p class="main__delightText">Smoothies</p>
+            <p class="main__delightText">DELIGHT</p>
         </h1>
-        <div class="row-smoothie">
-            <div class="main-smoothie">
-                <img src="Images/blueberry.png" alt="Blueberry-smoothie" />
+
+        <div class="main__smoothie">
+            <div class="smoothie__row">
+                <img class="smoothie__img" src="Images/blueberry.png" alt="Blueberry-smoothie" />
             </div>
 
-            <div class="main-smoothie">
-                <img src="Images/pineapple-mango.png" alt="Pineapple-mango-smoothie" />
+            <div class="smoothie__row">
+                <img class="smoothie__img" src="Images/pineapple-mango.png" alt="Pineapple-mango-smoothie" />
             </div>
 
-            <div class="main-smoothie">
-                <img src="Images/coffee.png" alt="Coffee-smoothie" />
+            <div class="smoothie__row">
+                <img class="smoothie__img" src="Images/coffee.png" alt="Coffee-smoothie" />
             </div>
 
-            <div class="main-smoothie">
-                <img src="Images/veggie.png" alt="Veggie-smoothie" />
+            <div class="smoothie__row">
+                <img class="smoothie__img" src="Images/veggie.png" alt="Veggie-smoothie" />
+            </div>
+        </div>
+
+        <div class="main__smoothie">
+            <div class="smoothie__row">
+                <img class="smoothie__img" src="Images/strawberry-banana.png" alt="Strawberry-banana-smoothie" />
+            </div>
+
+            <div class="smoothie__row">
+                <img class="smoothie__img" src="Images/grean-tea.png" alt="Grean-tea-smoothie" />
+            </div>
+
+            <div class="smoothie__row">
+                <img class="smoothie__img" src="Images/vanilla.png" alt="Vanilla-smoothie" />
+
+            </div>
+
+            <div class="smoothie__row">
+                <img class="smoothie__img" src="Images/chocolate.png" alt="Chocolate-smoothie" />
             </div>
         </div>
 
-        <div class="row-smoothie">
-            <div class="main-smoothie">
-                <img src="Images/strawberry-banana.png" alt="Strawberry-banana-smoothie" />
-            </div>
-
-            <div class="main-smoothie">
-                <img src="Images/grean-tea.png" alt="Grean-tea-smoothie" />
-            </div>
-
-            <div class="main-smoothie">
-                <img src="Images/vanilla.png" alt="Vanilla-smoothie" />
-
-            </div>
-
-            <div class="main-smoothie">
-                <img src="Images/chocolate.png" alt="Chocolate-smoothie" />
-            </div>
-        </div>
-        
         <a id="Healthy-&-delicoius-label"></a>
-        <h1 class="main-delicious">
-            <p>Healthy</p>
-            <p>& delicious</p>
+        <h1 class="main__chapter main__delicious">
+            <p class="main__deliciousText">Healthy</p>
+            <p class="main__deliciousText">& delicious</p>
         </h1>
 
-        <div class="main-text">
+        <div class="main__text">
             <p>When it comes to the health segment of a product, the most important part of it and the only way for the
                 customer to understand what a product consists of is the nutritional label.</p>
             <p> We advise anyone looking to benefit from a product to always check the nutritional facts on the back of
@@ -102,37 +104,39 @@
         </div>
 
         <a id="Lose-weight-label"></a>
-        <h1 class="main-weight">
-            <p>Lose</p>
-            <p>weight</p>
+        <h1 class="main__chapter main__weight">
+            <p class="main__weightText">Lose</p>
+            <p class="main__weightText">weight</p>
         </h1>
 
-        <div class="main-text">
+        <div class="main__text">
             <p>If you're looking to add smoothies to your weight loss menu, it's important to pack them with ingredients
                 that will boost energy and keep you full.</p> But you have to be careful not to overdo it, as it's easy
             to sip your way to high sugar
             counts and calorie overload. With portion control, these recipes are worth the trying.
         </div>
-
     </main>
 
-    <footer>
+    <footer class="footer">
         <a id="Stay-alert-label"></a>
-        <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8">
-            <h3 id="newsletter" class="text-align-left">Newsletter</h3>
-            <p class="text-align-left">Sign up for the latest news, offers and styles</p>
+        <form class="footer__form" method="post" action="/contact#contact_form" id="contact_form"
+            accept-charset="UTF-8">
+            <h3 class="form__newsletter" id="newsletter">Newsletter</h3>
+            <p>Sign up for the latest news, offers and styles</p>
 
-            <p class="text-align-left">
-                <input name="email" id="email" type="email" placeholder="Your email" required>
-                <button type="submit" name="commit" id="subscribe">Subscribe</button>
+            <p class="form__email">
+                <input name="email" class="email__input" id="email" type="email" placeholder="Your email" required>
+                <button name="commit" class="email__button" id="subscribe" type="submit">Subscribe</button>
             </p>
         </form>
 
-        <nav>
-            <a href="https://www.facebook.com/Green-parrot-1574965582735317/" class="fa fa-facebook"></a>
-            <a href="https://www.instagram.com/smoothie_world/" class="fa fa-instagram"></a>
+        <nav class="footer__nav">
+            <a href="https://www.facebook.com/Green-parrot-1574965582735317/"
+                class="global__link footer__socialMedia fa fa-facebook"></a>
+            <a href="https://www.instagram.com/smoothie_world/"
+                class="global__link footer__socialMedia fa fa-instagram"></a>
         </nav>
     </footer>
 </body>
 
-</htm
+</html>
