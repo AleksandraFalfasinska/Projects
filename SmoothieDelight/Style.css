@@ -70,14 +70,12 @@
             background: url(Images/smoothie.gif);
             background-repeat: no-repeat;
             background-size: cover;
-            float: left;
             width: 100%;
             height: 585px;
-        }
-        .main__bannerSlogan {
             color: rgb(45, 70, 29);
             font-family: 'Salsa';
         }
+     
         .main__text {
             font-family: Lato;
             font-size: 1.2em;
@@ -93,15 +91,11 @@
             background-repeat: no-repeat;
             background-size: cover;
             color: rgb(25, 85, 126);
-            line-height: 29px;
+            line-height: 100px;
             font-family: 'Salsa';
             text-align: left;
-            float: left;
             width: 100%;
             height: 385px;
-        }
-        .main__delightText {
-            color: rgb(25, 54, 73);
             margin-left: 20px;
         }
         .main__smoothie {
@@ -130,15 +124,12 @@
             color: rgb(155, 92, 113);
             font-family: 'Salsa';
             float: left;
-            line-height: 29px;
+            line-height: 100px;
             text-align: center;
             width: 100%;
             height: 385px;
         }
-        .main__deliciousText {
-            margin-left: 500px;
-            margin-right: 17.5px;
-        }
+       
         .main__weight {
             background: url(Images/fitcouple.jpg);
             background-repeat: no-repeat;
@@ -146,14 +137,12 @@
             color: rgb(80, 114, 177);
             font-family: 'Salsa';
             float: left;
-            line-height: 29px;
+            line-height: 100px;
             text-align: left;
             width: 100%;
             height: 385x;
         }
-        .main__weightText {
-            margin-left: 70px;
-        }
+
         .footer {
             background-color: rgb(191, 197, 190);
             height: 150px;
